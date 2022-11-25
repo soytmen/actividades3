@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class act1 : MonoBehaviour
 {
+    public string RandomLetter;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        IsVowel(RandomLetter);
     }
-
-    // Update is called once per frame
-    void Update()
+    private bool IsVowel(string letter)
     {
-        
+        if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"){
+            Debug.Log("es una vocal");
+            return true;
+        }
+        else {
+            Debug.Log("es una consonante");
+            return false;
+        }
+
     }
 }
+
+    

@@ -353,6 +353,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/act1.cs"
+"Assets/Scripts/act10.cs"
+"Assets/Scripts/act2.cs"
+"Assets/Scripts/act3.cs"
+"Assets/Scripts/act4.cs"
+"Assets/Scripts/act5.cs"
+"Assets/Scripts/act6.cs"
+"Assets/Scripts/act7.cs"
+"Assets/Scripts/act8.cs"
+"Assets/Scripts/act9.cs"
 -langversion:9.0
 
 /deterministic
